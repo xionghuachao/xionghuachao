@@ -1,0 +1,25 @@
+user_name:
+  xpath: //input[@placeholder='用户名']
+pass_word:
+  xpath: //input[@placeholder='密码']
+but_ton:
+  xpath: //*[@id='app']/div/form/button
+login_name:
+  linktext: 欢迎您回来，william
+wallert:
+  xpath: //span[contains(@class,'switch')]
+logo:
+  xpath: //div[contains(text(),'二手')]
+#首页，欢迎您回来
+home:
+  xpath: //span[starts-with(text(),'欢迎您回来')]
+calder:
+  xpath: //div[text()='我的日历']/following-sibling::div
+header:
+  xpath: //span[contains(text(),'欢迎您回来')]/parent::div/preceding-sibling::div
+avatar:
+  xpath: //span[text()='我的地址']/ancestor::div[@class='first-card']/div[contains(@class,'avatar')]
+one_menu:
+  xpath: //div[@class='el-submenu__title']//span[text()='产品']
+goods:
+  xpath: //li[@class='el-menu-item is-active']//span[text()='新增二手商品']

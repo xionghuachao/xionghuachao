@@ -1,0 +1,33 @@
+datetime: 2022-06-11T12:00:00+08:00
+date: 2022-06-11
+强制转换
+forceStr: !!str 123
+forceStrBoll: !!str true
+forceInt !!int 123
+数组
+myFavourite:
+  - baskeball
+  - football
+对象
+autotest:
+    username: jay
+    age: 18
+    male: true
+    birthday: 1979-01-18
+autotest2: {username: jay,age: 18,male: true}
+复合结构
+companies:
+  -
+     id:1
+     name:imooc
+     id: 2
+     name: byd
+webties
+   baidu:  www.baidu.com
+#引用
+father: &father_lastName
+    lastName: 周
+son:
+    <<: *father_lastName
+    firstName: 周
+    age: 18

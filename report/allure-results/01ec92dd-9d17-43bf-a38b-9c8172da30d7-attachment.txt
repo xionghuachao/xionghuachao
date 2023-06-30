@@ -1,0 +1,4 @@
+2023-06-26 19-00-40 - logger.py - logger - log - 11 - [32mINFO[0m - ====== WebDriver manager ======
+2023-06-26 19-00-41 - logger.py - logger - log - 11 - [32mINFO[0m - Get LATEST chromedriver version for google-chrome 114.0.5735
+2023-06-26 19-00-43 - logger.py - logger - log - 11 - [32mINFO[0m - Driver [C:\Users\ProfilesDirectory\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735\chromedriver.exe] found in cache
+2023-06-26 19-00-51 - Loginpage.py - Loginpage - click_login - 37 - [32mINFO[0m - 点击登录
