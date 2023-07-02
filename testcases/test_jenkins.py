@@ -1,3 +1,3 @@
 class TestJenkins:
-    def test_jenkins(self,driver):
+    def test_jenkinse(self,driver):
         print("test_jenkins11")
